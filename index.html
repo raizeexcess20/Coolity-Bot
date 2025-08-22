@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coolity - Your Ultimate Server Companion</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-robot"></i>
+                <span>Coolity</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#commands">Commands</a></li>
+                <li><a href="#invite">Invite</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Your Ultimate Discord Server Companion</h1>
+                <p>Enhance your Discord server with 200+ powerful commands, interactive features, and professional moderation tools.</p>
+                <div class="hero-buttons">
+                    <a class="btn-primary" id="inviteBtn" href="https://discord.com/oauth2/authorize?client_id=1405956978559291392&permissions=4011018418126839&integration_type=0&scope=bot" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-discord"></i>
+                        Invite Bot
+                    </a>
+
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="bot_pfp_refined.png" alt="Coolity Bot Avatar" class="bot-avatar-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat-item">
+                <h3>200+</h3>
+                <p>Commands</p>
+            </div>
+            <div class="stat-item">
+                <h3>10</h3>
+                <p>Categories</p>
+            </div>
+            <div class="stat-item">
+                <h3>24/7</h3>
+                <p>Uptime</p>
+            </div>
+            <div class="stat-item">
+                <h3>100%</h3>
+                <p>Free</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Bot Categories</h2>
+            <p class="section-subtitle">Explore our comprehensive command categories designed to enhance your server experience</p>
+            
+            <div class="categories-grid">
+                <!-- Overview Category -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>🏠 Overview</h3>
+                    <p>Bot introduction and comprehensive statistics. Get detailed information about the bot's capabilities, server count, uptime statistics, and feature overview. Perfect for understanding what the bot offers at a glance.</p>
+                    <div class="category-features">
+                        <span class="feature-tag">Bot Stats</span>
+                        <span class="feature-tag">Server Info</span>
+                        <span class="feature-tag">Help System</span>
+                    </div>
+                </div>
+
+                <!-- Utility & Tools Category -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3>🔧 Utility & Tools</h3>
+                    <p>Productivity and calculation tools to streamline your workflow. Includes calculators, converters, reminders, polls, and various utility commands that make server management and daily tasks more efficient.</p>
+                    <div class="category-features">
+                        <span class="feature-tag">Calculators</span>
+                        <span class="feature-tag">Converters</span>
+                        <span class="feature-tag">Reminders</span>
+                    </div>
+                </div>
+
+                <!-- Moderation Category -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>🛡️ Moderation</h3>
+                    <p>Advanced security and server control features. Comprehensive moderation tools including auto-moderation, advanced purge filters, warning systems, and real-time security monitoring to keep your server safe.</p>
+                    <div class="category-features">
+                        <span class="feature-tag">Auto-Mod</span>
+                        <span class="feature-tag">Purge Tools</span>
+                        <span class="feature-tag">Warning System</span>
+                    </div>
+                </div>
+
+                <!-- Fun & Games Category -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>🎮 Fun & Games</h3>
+                    <p>Entertainment and interactive gaming features. Button-based games like Tic-Tac-Toe, trivia contests, mini-games, and various entertainment commands to keep your community engaged and active.</p>
+                    <div class="category-features">
+                        <span class="feature-tag">Interactive Games</span>
+                        <span class="feature-tag">Trivia</span>
+                        <span class="feature-tag">Mini-Games</span>
+                    </div>
+                </div>
+
+                <!-- Economy Category -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3>💰 Economy</h3>
+                    <p>Virtual currency and economic system management. Complete economy features with dropdown shop selection, item descriptions, trading systems, daily rewards, and comprehensive economic gameplay elements.</p>
+                    <div class="category-features">
+                        <span class="feature-tag">Virtual Currency</span>
+                        <span class="feature-tag">Shop System</span>
+                        <span class="feature-tag">Trading</span>
+                    </div>
+                </div>
+
+                <!-- Admin & Management Category -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>⚙️ Admin & Management</h3>
+                    <p>Server automation and administrative tools. Advanced server management features including role management, channel automation, server configuration, and administrative utilities for efficient server operation.</p>
+                    <div class="category-features">
+                        <span class="feature-tag">Role Management</span>
+                        <span class="feature-tag">Automation</span>
+                        <span class="feature-tag">Server Config</span>
+                    </div>
+                </div>
+
+                <!-- Info & Meta Category -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>📊 Info & Meta</h3>
+                    <p>Statistics and analytical tools for data-driven insights. Comprehensive analytics including server statistics, user activity tracking, detailed reporting, and meta-information about server performance and engagement.</p>
+                    <div class="category-features">
+                        <span class="feature-tag">Analytics</span>
+                        <span class="feature-tag">Reports</span>
+                        <span class="feature-tag">Statistics</span>
+                    </div>
+                </div>
+
+                <!-- Community Category -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>🎫 Community</h3>
+                    <p>Tickets and community engagement tools. Advanced ticket system for support, suggestion management, community feedback collection, and tools designed to foster better communication within your server community.</p>
+                    <div class="category-features">
+                        <span class="feature-tag">Ticket System</span>
+                        <span class="feature-tag">Suggestions</span>
+                        <span class="feature-tag">Feedback</span>
+                    </div>
+                </div>
+
+                <!-- Music Category -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>🎵 Music</h3>
+                    <p>High-quality audio playback and music management. Full-featured music bot capabilities including playlist management, queue system, audio controls, and support for multiple music sources with crystal-clear audio quality.</p>
+                    <div class="category-features">
+                        <span class="feature-tag">Music Player</span>
+                        <span class="feature-tag">Playlists</span>
+                        <span class="feature-tag">Queue System</span>
+                    </div>
+                </div>
+
+                <!-- Developer Category -->
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>🤖 Developer</h3>
+                    <p>System management and developer utilities. Advanced developer tools including system diagnostics, bot management, debugging utilities, and technical features designed for server administrators and developers.</p>
+                    <div class="category-features">
+                        <span class="feature-tag">System Tools</span>
+                        <span class="feature-tag">Debugging</span>
+                        <span class="feature-tag">Management</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Specifications -->
+    <section class="tech-specs">
+        <div class="container">
+            <h2>Technical Specifications</h2>
+            <div class="specs-grid">
+                <div class="spec-item">
+                    <i class="fas fa-terminal"></i>
+                    <h4>Hybrid Commands</h4>
+                    <p>Both slash (/) and prefix (!) command support with auto-complete functionality</p>
+                </div>
+                <div class="spec-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h4>Mobile-Friendly</h4>
+                    <p>Responsive design with proper formatting and touch support for all devices</p>
+                </div>
+                <div class="spec-item">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <h4>Error Handling</h4>
+                    <p>Comprehensive error messages and user guidance for seamless experience</p>
+                </div>
+                <div class="spec-item">
+                    <i class="fas fa-bolt"></i>
+                    <h4>Real-time Updates</h4>
+                    <p>Live feedback and status updates with interactive button-based interfaces</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Implementation Status -->
+    <section class="implementation">
+        <div class="container">
+            <h2>🎊 Implementation Status: Perfection Achieved</h2>
+            <div class="status-grid">
+                <div class="status-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>All 200+ Commands Implemented</span>
+                </div>
+                <div class="status-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Professional UI/UX Throughout</span>
+                </div>
+                <div class="status-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Interactive Elements Working Seamlessly</span>
+                </div>
+                <div class="status-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Both Command Types Operational</span>
+                </div>
+                <div class="status-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Error Handling Comprehensive</span>
+                </div>
+                <div class="status-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Permission System Configured</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="invite" class="cta">
+        <div class="container">
+            <h2>Ready to Transform Your Server?</h2>
+            <p>Join thousands of servers already using our bot to enhance their Discord experience</p>
+            <a class="btn-primary btn-large" id="inviteBtnBottom" href="https://discord.com/oauth2/authorize?client_id=1405956978559291392&permissions=4011018418126839&integration_type=0&scope=bot" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-discord"></i>
+                Invite Bot to Your Server
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Coolity</h4>
+                    <p>Your ultimate Discord server companion with 200+ commands and professional features.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#invite">Invite Bot</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+
+                        <li><a href="#">Support Server</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Coolity. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
